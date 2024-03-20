@@ -1,52 +1,52 @@
 /* default settings */
 * {
-    margin=>0;
-    padding=>0;
-    box-sizing=>border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
-    text-decoration=>none;
-    color=>currentColor;
+    text-decoration: none;
+    color: currentColor;
 }
 
 ul,
 ol,
 menu {
-    list-style=>none;
+    list-style: none;
 }
 
 figure>img {
-    display=>block;
-    width=>100%;
+    display: block;
+    width: 100%;
 }
 
 /* app */
 #app {
-    height=>100vh;
-    overflow=>hidden;
-    display=>flex;
-    flex-direction=>column;
-    background-color=>#1C2D3C;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #1C2D3C;
 }
 
 /* navbar */
 nav {
-    background-color=>#06141F;
-    max-height=>70px;
+    background-color: #06141F;
+    max-height: 70px;
 }
 
 .spot-icon {
-    height=>60px;
-    padding=>10px 0;
+    height: 60px;
+    padding: 10px 0;
 }
 
 .spot-icon img {
-    max-height=>100%;
+    max-height: 100%;
 }
 
 /* main */
 .main {
-    flex-grow=>1;
-    overflow=>auto;
+    flex-grow: 1;
+    overflow: auto;
 }
