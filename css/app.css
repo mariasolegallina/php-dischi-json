@@ -1,0 +1,46 @@
+/* default settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+figure>img {
+    display: block;
+    width: 100%;
+}
+
+/* app */
+#app {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #1C2D3C;
+}
+
+/* navbar */
+nav {
+    background-color: #06141F;
+    max-height: 70px;
+}
+
+.spot-icon {
+    height: 60px;
+    padding: 10px 0;
+}
+
+.spot-icon img {
+    max-height: 100%;
+}
