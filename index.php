@@ -34,7 +34,7 @@
 
 
             <div class="container">
-                <p>{{message}}</p>
+                <!-- <p>{{message}}</p> -->
                 <div class="d-flex row">
                     <div class="col-4">
                         <figure>

@@ -43,3 +43,9 @@ $dischi = [
         "genre" => "Rock"
     ]
 ];
+
+header('Content-Type: application/json');
+
+
+// var_dump($dischi);
+echo json_encode($dischi);
