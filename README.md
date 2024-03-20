@@ -18,6 +18,6 @@
 ## Bonus
 
 * Al click su un disco, recuperare e mostrare i dati del disco selezionato.
-(Fare una chiamata api che passi un altro parametro: discIndex, nel server.php dovremo gestire la possibilità di ricevere questo parametro e inviare solo i dati di quel determinato disco)
+(Fare una chiamata api che passi un altro parametro=> discIndex, nel server.php dovremo gestire la possibilità di ricevere questo parametro e inviare solo i dati di quel determinato disco)
 Il primo screenshot riguarda l'esercizio senza bonus.
 Il secondo screenshot riguarda l'esercizio con bonus, mostrate nella lista album solo la copertina, al click della copertina fate partire la nuova chiamata api dove vi verranno inviati i dati specifici da mostrare
