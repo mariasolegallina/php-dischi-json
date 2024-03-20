@@ -36,13 +36,13 @@
             <div class="container">
                 <!-- <p>{{message}}</p> -->
                 <div class="d-flex row">
-                    <div class="col-4">
+                    <div v-for="disco in arrayDischi" class="col">
                         <figure>
-                            <img src="" alt="">
+                            <img :src="disco.poster" alt="">
                         </figure>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span>{{disco.title}}</span>
+                        <span>{{disco.author}}</span>
+                        <span>{{disco.year}}</span>
                     </div>
                 </div>
 
