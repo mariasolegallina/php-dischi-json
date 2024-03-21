@@ -32,17 +32,16 @@
         <!-- main -->
         <div class="main">
 
-
-            <div class="container">
+            <div class="container my-5">
                 <!-- <p>{{message}}</p> -->
                 <div class="d-flex row">
-                    <div v-for="disco in arrayDischi" class="col">
+                    <div v-for="disco in arrayDischi" class="col-3 disco">
                         <figure>
                             <img :src="disco.poster" alt="">
                         </figure>
-                        <span>{{disco.title}}</span>
-                        <span>{{disco.author}}</span>
-                        <span>{{disco.year}}</span>
+                        <span class="text1">{{disco.title}}</span>
+                        <span class="text2">{{disco.author}}</span>
+                        <span class="text3">{{disco.year}}</span>
                     </div>
                 </div>
 

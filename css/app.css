@@ -50,3 +50,35 @@ nav {
     flex-grow: 1;
     overflow: auto;
 }
+
+.disco {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #112030;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.disco img {
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* text */
+.text1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text2 {
+    font-size: 10px;
+}
+
+.text3 {
+    font-size: 10px;
+    font-weight: 600;
+}
